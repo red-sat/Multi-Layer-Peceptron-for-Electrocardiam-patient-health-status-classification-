@@ -56,9 +56,9 @@ def save(model, scaler, model_path, scaler_path):
         pickle.dump(scaler, f)
 
 if __name__ == "__main__":
-    DATA_PATH = "/home/redsat/Téléchargements/ecg2.csv" #dataset/ecg.csv
-    MODEL_PATH = "/home/redsat/Téléchargements/model.pkl"
-    SCALER_PATH = "/home/redsat/Téléchargements/scaler.pkl"
+    DATA_PATH = "./ecg2.csv" #dataset/ecg.csv
+    MODEL_PATH = "./model.pkl"
+    SCALER_PATH = "./scaler.pkl"
     X_train, X_test, y_train, y_test, scaler = preprocessing(DATA_PATH) 
     model = modelling(X_train.shape[1])
     history = train(model, X_train, X_test, y_train, y_test)
