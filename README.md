@@ -1,4 +1,5 @@
 ## Multi Layer Peceptron electrocardiogram classification with Docker Deployment
+#### A multi layer perceptron with 2 hidden layers of 64 and 32 neurons and sigmoid activation functions for a binary classification of patients 
 
 1 - The project is structured as such : 
 ```
