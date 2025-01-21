@@ -2,7 +2,7 @@
 #### A multi layer perceptron with 2 hidden layers of 64 and 32 neurons and sigmoid activation functions for a binary classification of patients 
 
 1 - The project is structured as such : 
-```
+```bash
 .
 ├── analysis.ipynb
 ├── app.dockerfile
@@ -22,7 +22,9 @@
 
 1 - Construct the docker image :
  
-`docker build -f train.dockerfile -t ml-training . `
+`bash 
+
+docker build -f train.dockerfile -t ml-training . `
 
 2 - Execute the docker container :
 
