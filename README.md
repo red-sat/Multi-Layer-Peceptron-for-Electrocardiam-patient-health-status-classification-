@@ -21,7 +21,7 @@
 
 1 - Construct the docker image :
  
-`docker build -f training.Dockerfile -t ml-training . `
+`docker build -f train.dockerfile -t ml-training . `
 
 2 - Execute the docker container :
 
@@ -31,7 +31,7 @@
 
 1 -  Construct the docker image :
 
-``docker build -f api.Dockerfile -t ml-api .``
+``docker build -f app.dockerfile -t ml-api .``
 
 2 - Execute the docker container : 
 
