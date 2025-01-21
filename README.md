@@ -30,6 +30,7 @@
 ### For the application : 
 
 1 -  Construct the docker image :
+
 ``docker build -f api.Dockerfile -t ml-api .``
 
 2 - Execute the docker container : 
