@@ -22,10 +22,9 @@
 
 1 - Construct the docker image :
  
-`bash 
-
+```bash 
 docker build -f train.dockerfile -t ml-training . `
-
+```
 2 - Execute the docker container :
 
 ``` docker run -v $(pwd):/app ml-training ```
