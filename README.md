@@ -2,6 +2,7 @@
 
 1 - The project is structured as such : 
 ```
+.
 ├── analysis.ipynb
 ├── app.dockerfile
 ├── app.py
