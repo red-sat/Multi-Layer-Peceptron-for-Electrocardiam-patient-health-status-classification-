@@ -28,14 +28,19 @@ docker build -f train.dockerfile -t ml-training . `
 2 - Execute the docker container :
 
 ```bash 
-docker run -v $(pwd):/app ml-training ```
+docker run -v $(pwd):/app ml-training
+```
 
 ### For the application : 
 
 1 -  Construct the docker image :
 
-``docker build -f app.dockerfile -t ml-app .``
+```bash 
+docker build -f app.dockerfile -t ml-app .
+```
 
 2 - Execute the docker container : 
 
-``docker run -p 5000:5000 ml-app``
+```bash 
+docker run -p 5000:5000 ml-app
+```
