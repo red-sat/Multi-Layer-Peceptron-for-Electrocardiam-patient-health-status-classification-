@@ -20,5 +20,3 @@
 For the training : 
 
 ``` docker build -f training.Dockerfile -t ml-training . ```
-
-``` docker run -v $(pwd)/models:/app/models ml-training ```
