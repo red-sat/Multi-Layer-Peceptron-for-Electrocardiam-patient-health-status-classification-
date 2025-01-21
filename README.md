@@ -17,6 +17,9 @@
 ```
 2 - Building and execution of the containers :
 
-For the training : 
-
+### For the training : 
+1 - Construct the docker image : 
 ``` docker build -f training.Dockerfile -t ml-training . ```
+
+2 - Execute the docker container :
+``` docker run -v $(pwd)/models:/app/models ml-training ```
