@@ -1,7 +1,7 @@
 ## Multi Layer Peceptron electrocardiogram classification with Docker Deployment
 
 1 - The project is structured as such : 
-.
+```
 ├── analysis.ipynb
 ├── app.dockerfile
 ├── app.py
@@ -13,7 +13,7 @@
 ├── requirements.txt
 ├── scaler.pkl
 └── train.dockerfile
-
+```
 2 - Building and execution of the containers :
 
 For the training : 
